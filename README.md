@@ -50,7 +50,7 @@ Non tested for TinyAvr0, TinyAvr1, but ported, and assumed will work fine...
 Simplest interface schematic for UPDI
 Assuming AVR is 3.3v, and CP2102 variant RX internal pullup is 3.3v
 Also works with Raspberry PI
-
+`
              | /|
 UPDI ---+----|< |------- CP2102_RX or RaspberryPi_Uart_RX
         |    | \|
@@ -64,3 +64,4 @@ UPDI ---+----|< |------- CP2102_RX or RaspberryPi_Uart_RX
         |    |\ |
         +----| >|------- CP2102_TX or RaspberryPi_Uart_TX
              |/ |
+`
