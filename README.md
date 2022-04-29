@@ -22,12 +22,12 @@ Step 4) You are done, you can test your V-USB device using the usb_app
 
 -------------------------------------------
 
-./tools             UPDI programming tools (use with any CP2102, CP21XX UsbSerial device, see schematic below)
-./usb_app           USB App for testing USB communication with TinyAvr
-compile_config.sh   compile config options (set absolute paths here)
-compile.sh          you can set your clk freq here, look for... OPT='  -DF_CPU=12800000UL '
-cycle_cnt_lss.sh    just a helpful script to look at lss and see opcode cycle counts
-program.sh          program your TinyAvr using this script
+- ./tools             UPDI programming tools (use with any CP2102, CP21XX UsbSerial device, see schematic below)
+- ./usb_app           USB App for testing USB communication with TinyAvr
+- compile_config.sh   compile config options (set absolute paths here)
+- compile.sh          you can set your clk freq here, look for... OPT='  -DF_CPU=12800000UL '
+- cycle_cnt_lss.sh    just a helpful script to look at lss and see opcode cycle counts
+- program.sh          program your TinyAvr using this script
 
 -------------------------------------------
 
